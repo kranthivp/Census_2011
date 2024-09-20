@@ -20,13 +20,18 @@ The task is to clean, process, and analyze census data from a given source.The g
           dataset'
 
 -step 3 : For uniformity in the dataset and taking into consideration the census year,some columns are renamed.
+
 -step 4 : The State/UT names are in all caps in the given census data. For uniformity across dataset, only the first 
           character of each word in the name is changed into upper case and the rest are into lower case.
+          
 -step 5 : In 2014 Telangana was formed after it split from Andhra Pradesh, Renamed the State/UT from “Andhra Pradesh” to 
           “Telangana” for the given districts.
+          
 -step 6 : In 2019 Ladakh was formed after it split from Jammu and Kashmir, Renamed the State/UT from “Jammu and Kashmir” to 
          “Ladakh” for the given districts. 
+         
 -step 7 : Some null values in the dataset are retrieved by using aggregation
+
 -step 8 : Comparison of the amount of missing data before and after the data-filling process for each column is done.
          
         ' # count of missing values before cleaning
@@ -57,12 +62,14 @@ The task is to clean, process, and analyze census data from a given source.The g
          !python -m pip install "pymongo[srv]"
       
 -step 10 : The processed data is saved to mongoDB with a collection named “census”.
+
 -step 11 : Sqlalchemy installation is done
 
          # installing sqlalchemy to convert DataFrame into Database table
            !pip install sqlalchemy
            
 -step 12 : Data is fetched from  mongoDB and uploaded to a relational database(SQLite) using python code.
+
 -step 13 : Streamlit installation is done
 
           # installing streamlit
