@@ -34,7 +34,7 @@ The task is to clean, process, and analyze census data from a given source.The g
 
 -step 8 : Comparison of the amount of missing data before and after the data-filling process for each column is done.
          
-        ' # count of missing values before cleaning
+        # count of missing values before cleaning
 
            null_count=dataset_old.isnull().sum()
 
@@ -48,13 +48,13 @@ The task is to clean, process, and analyze census data from a given source.The g
          null_df1=null_count1.reset_index()
          null_df1.columns=['column','Missing values']
 
-      #finding the percentage of amount of missing data before data cleaning
-       null_df['percentage_missing_value before_cleaning']=(null_df['Missing values']/len(dataset_old))*100
+        # finding the percentage of amount of missing data before data cleaning
+         null_df['percentage_missing_value before_cleaning']=(null_df['Missing values']/len(dataset_old))*100
 
-     #finding the percentage of amount of missing data after data cleaning
-      null_df['percentage_missing_value after_cleaning']=(null_df1['Missing values']/len(dataset))*100
+        # finding the percentage of amount of missing data after data cleaning
+         null_df['percentage_missing_value after_cleaning']=(null_df1['Missing values']/len(dataset))*100
 
-      null_df'
+         null_df'
 
 -step 9 : Pymongo installation 
 
