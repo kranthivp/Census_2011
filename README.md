@@ -56,31 +56,31 @@ The task is to clean, process, and analyze census data from a given source.The g
 
       null_df'
 
--step 9 : Pymongo installation is done
+-step 9 : Pymongo installation 
 
          # pymongo installation
          !python -m pip install "pymongo[srv]"
       
 -step 10 : The processed data is saved to mongoDB with a collection named “census”.
 
--step 11 : Sqlalchemy installation is done
+-step 11 : Sqlalchemy installation 
 
          # installing sqlalchemy to convert DataFrame into Database table
            !pip install sqlalchemy
            
 -step 12 : Data is fetched from  mongoDB and uploaded to a relational database(SQLite) using python code.
 
--step 13 : Streamlit installation is done
+-step 13 : Streamlit installation 
 
           # installing streamlit
             !pip install streamlit
 
--step 14 : Localtunnel installation is done
+-step 14 : Localtunnel installation 
 
           # localtunnel installation
             !npm install -g localtunnel
             
--step 15 : Given queries are run on the database and output is shown on streamlit
+-step 15 : Sql queries are executed and output is shown on streamlit
 
 
 
