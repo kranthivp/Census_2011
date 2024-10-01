@@ -1,10 +1,12 @@
 # Census_2011
 
-## notebook-link
-https://colab.research.google.com/drive/1dRJ8xJMdP8ZltpFgyjZRuMoMUd5Vw4A3#scrollTo=08DnCV6J2wjZ
+## Description
+
+The 2011 census of India or the 15th Indian census was conducted in two phases. Census has been conducted in India since 1872 and 2011 marks the first time biometric information was collected. According to the provisional reports released on 31 March 2011, the Indian population increased to 1.21 billion with a decadal growth of 17.70%. Adult literacy rate increased to 74.04% with a decadal growth of 9.21%. The motto of the census was Our Census, Our Future.
 
 ## Problem statement
-The task is to clean, process, and analyze census data from a given source.The goal is to ensure uniformity, accuracy, and accessibility of the census data for further analysis and visualization.
+
+The task is to clean, process, and analyze census data. The goal is to ensure uniformity, accuracy, and accessibility of the census data for further analysis and visualization.
 
 ## Steps followed
 
